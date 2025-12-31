@@ -1,4 +1,5 @@
-<htm<head>
+<html>
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>For My Baby</title>
@@ -161,11 +162,9 @@ function duckClick() {
         <h1>heyyy babiiii!</h1>
         <p style="text-align:center;">I've been cooking this up for a few days along with the dictionary, I hope you didn't guess that I'm making you a website but there's still a message here.</p>
         <div style="text-align:center;">
-            <img id="hazbinDuck" src="https://media.tenor.com/7hZ5dZKp2JQAAAAC/hazbin-hotel-duck.gif" alt="Hazbin Duck">
             <span class="duck" onclick="duckClick()">🦆</span>
-            <p id="duckText" style="font-size:0.9rem; opacity:0.6;">click me</p>
             <audio id="duckSound">
-                <source src="https://www.myinstants.com/media/sounds/duck-quack.mp3" type="audio/mpeg">
+                <source src="https://www.myinstants.com/en/instant/mac-quack-83896/?utm_source=copy&utm_medium=share" type="audio/mpeg">
             </audio>
         </div>
     </div>
@@ -178,7 +177,7 @@ function duckClick() {
             <p id="msg1" class="hidden">How you always make me laugh when I’m sad - your stupid jokes, I laugh while crying. You somehow know exactly what to say or do to lift my mood. I love how you comfort me when I’m down or not in the mood, and how you respect it instead of forcing anything and honestly… the way you ragebait me on purpose just to hear you say that soft little “sorry” after? I can’t even stay mad - marupok</p>
 
             <button class="button" onclick="toggleMessage('msg2')">dos</button>
-            <p id="msg2" class="hidden">How you reassure me when I overthink over little things - your change of typings, the feeling of you not liking me anymore. Even when my thoughts get messy and repetitive, you stay and assure me gently, like it’s never a bother even though I know it can be (hehe). You make my mind feel lighter without making me feel silly for worrying.</p>
+            <p id="msg2" class="hidden">How you reassure me when I overthink little things - your change of typings, the feeling of you not liking me anymore. Even when my thoughts get messy and repetitive, you stay and assure me gently, like it’s never a bother even though I know it can be (hehe). You make my mind feel lighter without making me feel silly for worrying.</p>
 
             <button class="button" onclick="toggleMessage('msg3')">tre</button>
             <p id="msg3" class="hidden">How patient and understanding you are with me lalo na when I’m being stubborn about taking care of myself kapag may sakit na ako, inuubo, may bali etc or when you’re trying to stop me from doing something stupid like... fiddling with stuff when I'm bored. You don’t get mad or give up... you just stay, guide me, and care in the calmest way.</p>
@@ -199,7 +198,7 @@ function duckClick() {
 
     <!-- Original Final Message -->
     <div class="card">
-        <h2 id="finalMessage" class="hidden">Waittt, there's more !!!</h2>
+        <h2 id="finalMessage">Waittt, there's more !!!</h2>
     </div>
 
     <!-- Last Message -->
@@ -219,3 +218,4 @@ function duckClick() {
     <footer>I love you, always my mataray na dabe :P</footer>
 </div>
 </body>
+</html>
