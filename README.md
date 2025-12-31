@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<htm<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>For My Baby</title>
@@ -93,7 +91,7 @@ footer {
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .container { padding: 20px 10px; }
 
     h1 { font-size: 2rem; }
@@ -221,4 +219,3 @@ function duckClick() {
     <footer>I love you, always my mataray na dabe :P</footer>
 </div>
 </body>
-</html>t
