@@ -66,7 +66,7 @@ p {
     transform: translateY(10px);
     overflow: hidden;
     margin-top: 15px;
-    font-style: italic;
+    font-style: normal;
     transition: max-height 0.8s ease, opacity 0.5s ease, transform 0.5s ease;
 }
 
