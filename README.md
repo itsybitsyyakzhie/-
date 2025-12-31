@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,7 +67,7 @@ p {
     transform: translateY(10px);
     overflow: hidden;
     margin-top: 15px;
-    font-style: normal;
+    font-style: italic;
     transition: max-height 0.8s ease, opacity 0.5s ease, transform 0.5s ease;
 }
 
@@ -89,6 +90,11 @@ footer {
     opacity: 0.7;
     margin-top: 40px;
     font-style: italic;
+}
+
+/* ===== Override Last Message to Normal ===== */
+#lastMessage, #lastMessage * {
+    font-style: normal !important;
 }
 
 /* ===== Responsive ===== */
@@ -164,7 +170,7 @@ function duckClick() {
         <div style="text-align:center;">
             <span class="duck" onclick="duckClick()">🦆</span>
             <audio id="duckSound">
-                <source src="https://www.myinstants.com/en/instant/mac-quack-83896/?utm_source=copy&utm_medium=share" type="audio/mpeg">
+                <source src="https://www.myinstants.com/media/sounds/duck-quack.mp3" type="audio/mpeg">
             </audio>
         </div>
     </div>
@@ -210,7 +216,7 @@ function duckClick() {
             <p>i didn’t plan for you, i didn’t expect us to be anything other than being friends - best friends. you just slowly sneaked into my life until suddenly you were everywhere (⁠ ⁠╹⁠▽⁠╹⁠ ⁠) in my thoughts, my routines, my jokes, my quiet moments and now I'm here, thinking back how insane our transition was lalo na sa nicknames - from dave, dabe, dabe dabe dabe, daveing under water (fav), dabe na mataray/masungit to my baby, love love, love, babi, babe etc.</p>
             <p>thank you for loving me the way you do (⁠｡⁠•́⁠︿⁠•̀⁠｡⁠) softly, patiently, consistently. thank you for holding my hand, for saying “pahinga” when i forget to rest, for worrying about me even when i’m being stubborn and pushing me to do what's best for me  thank you for choosing me even on days i’m messy, dramatic, clingy, or too much.</p>
             <p>loving you feels chaotic in the best way. it makes my heart race, my brain short-circuit, and my smile appears out of nowhere. but at the same time, it feels safe. like i finally found a place where i can just exist and be loved for it.</p>
-            <p>i don’t know where this will take us, maybe I'll sagot you na to be my boyfriend, part ways (don't, please I'm not ready for this yet) but i know this much... i want it to be you ( like i said dati I'm not giving up on us) through the laughter, the chaos, the soft moments, the bad days, the good days, all of it.</p>
+            <p>i don’t know where this will take us, maybe I'll sagot you na to be my boyfriend, part ways (don't, please I'm not ready for this yet) but i know this much...  i want it to be you ( like i said dati I'm not giving up on us) through the laughter, the chaos, the soft moments, the bad days, the good days, all of it.</p>
             <p>im ending this message with a kiss (⁠っ⁠˘⁠з⁠(⁠˘⁠⌣⁠˘⁠ ⁠) and a hug ＼⁠(⁠^⁠o⁠^⁠)⁠／</p>
         </div>
     </div>
