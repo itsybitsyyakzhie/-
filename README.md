@@ -14,9 +14,9 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 480px;
     margin: auto;
-    padding: 40px 20px;
+    width: 100%;
 }
 
 .card {
